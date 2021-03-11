@@ -1,0 +1,12 @@
+E:\Software Dev\C#\WIFI-Provider-Apps\bin\Debug\net5.0\WIFI-Provider-Apps.deps.json
+E:\Software Dev\C#\WIFI-Provider-Apps\bin\Debug\net5.0\WIFI-Provider-Apps.dll
+E:\Software Dev\C#\WIFI-Provider-Apps\bin\Debug\net5.0\ref\WIFI-Provider-Apps.dll
+E:\Software Dev\C#\WIFI-Provider-Apps\bin\Debug\net5.0\WIFI-Provider-Apps.pdb
+E:\Software Dev\C#\WIFI-Provider-Apps\obj\Debug\net5.0\WIFI-Provider-Apps.csprojAssemblyReference.cache
+E:\Software Dev\C#\WIFI-Provider-Apps\obj\Debug\net5.0\WIFI-Provider-Apps.GeneratedMSBuildEditorConfig.editorconfig
+E:\Software Dev\C#\WIFI-Provider-Apps\obj\Debug\net5.0\WIFI-Provider-Apps.AssemblyInfoInputs.cache
+E:\Software Dev\C#\WIFI-Provider-Apps\obj\Debug\net5.0\WIFI-Provider-Apps.AssemblyInfo.cs
+E:\Software Dev\C#\WIFI-Provider-Apps\obj\Debug\net5.0\WIFI-Provider-Apps.csproj.CoreCompileInputs.cache
+E:\Software Dev\C#\WIFI-Provider-Apps\obj\Debug\net5.0\WIFI-Provider-Apps.dll
+E:\Software Dev\C#\WIFI-Provider-Apps\obj\Debug\net5.0\ref\WIFI-Provider-Apps.dll
+E:\Software Dev\C#\WIFI-Provider-Apps\obj\Debug\net5.0\WIFI-Provider-Apps.pdb
