@@ -10,3 +10,7 @@ E:\Software Dev\C#\WIFI-Provider-Apps\obj\Debug\net5.0\WIFI-Provider-Apps.csproj
 E:\Software Dev\C#\WIFI-Provider-Apps\obj\Debug\net5.0\WIFI-Provider-Apps.dll
 E:\Software Dev\C#\WIFI-Provider-Apps\obj\Debug\net5.0\ref\WIFI-Provider-Apps.dll
 E:\Software Dev\C#\WIFI-Provider-Apps\obj\Debug\net5.0\WIFI-Provider-Apps.pdb
+E:\Software Dev\C#\WIFI-Provider-Apps\bin\Debug\net5.0\WIFI-Provider-Apps.exe
+E:\Software Dev\C#\WIFI-Provider-Apps\bin\Debug\net5.0\WIFI-Provider-Apps.runtimeconfig.json
+E:\Software Dev\C#\WIFI-Provider-Apps\bin\Debug\net5.0\WIFI-Provider-Apps.runtimeconfig.dev.json
+E:\Software Dev\C#\WIFI-Provider-Apps\obj\Debug\net5.0\WIFI-Provider-Apps.genruntimeconfig.cache

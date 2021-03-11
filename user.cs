@@ -49,5 +49,11 @@ namespace WifiProfiderApk{
                 Console.WriteLine("Error, Out of Option");
             }
         }
+        public void login(){
+            Console.WriteLine("Enter Username:");
+            Username = Console.ReadLine();
+            Console.WriteLine("Enter Password:");
+            Password = Console.ReadLine();
+        }
     }
 }
