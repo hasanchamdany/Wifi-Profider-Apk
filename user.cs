@@ -100,7 +100,6 @@ namespace WifiProfiderApk{
                     Console.WriteLine("Segera Bayarkan sebelum 24 jam");
                     break;
                 }
-            
             }
         }
     }
