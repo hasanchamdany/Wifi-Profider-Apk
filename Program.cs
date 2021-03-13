@@ -13,6 +13,7 @@ namespace WifiProfiderApk{
             if(pilih1 == "yes"){
                  user.login();
                  // Lanjut ke Tagihan (payment)
+                 user.payment();
             }else if(pilih1 == "no"){
                  Console.WriteLine("Ingin Mendaftar? (yes/no)");
                  string pilih2 = Console.ReadLine();
