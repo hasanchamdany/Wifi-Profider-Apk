@@ -12,18 +12,19 @@ namespace WifiProfiderApk{
             User user = new User();
             if(pilih1 == "yes"){
                  user.login();
-                 // Lanjut ke Tagihan (payment)
-                 user.payment();
+                 user. menu();
             }else if(pilih1 == "no"){
                  Console.WriteLine("Ingin Mendaftar? (yes/no)");
                  string pilih2 = Console.ReadLine();
                  if(pilih2 == "yes"){
                      //Register
                      user.AccountRegister();
+                     user.login();
                      Console.WriteLine("Apakah Ingin Berlangganan ? (yes/no)");
                      string pilih3 = Console.ReadLine();
                      if(pilih3 == "yes"){
                         user.WifiRegister();
+                        user.menu();
                      }
                  }
             }else {
