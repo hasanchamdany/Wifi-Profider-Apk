@@ -1,4 +1,7 @@
+using System.Data;
 using System;
+using MySql.Data.MySqlClient;
+
 namespace WifiProfiderApk{
     public class User
     {
@@ -17,9 +20,17 @@ namespace WifiProfiderApk{
             string tanggal_bayar;
             string bulan_bayar;
             string tahun_bayar;
+            static string connectionString = "server=localhost; port=3306; uid=hasan;" +
+                                        "pwd=hasan; database=mywifi_database; charset=utf8; sslmode=none;";
+            static MySqlConnection connection = new MySqlConnection(connectionString);
 
         public void AccountRegister()
         {
+            
+            MySqlCommand command = connection.CreateCommand();
+            command.CommandType = System.Data.CommandType.Text;
+            command.CommandText = "Insert Into tbuser(dusername, dpassword, dfullname, dNIK) Values('"+Username+"', '"+Password+"', '"+nama+"', '"+NIK+"')";
+
             Console.WriteLine("Masukkan Nama Lengkap: ");
             nama = Console.ReadLine();
             Console.WriteLine("Masukkan NIK: ");
