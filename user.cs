@@ -27,9 +27,10 @@ namespace WifiProfiderApk{
         public void AccountRegister()
         {
             
-            MySqlCommand command = connection.CreateCommand();
-            command.CommandType = System.Data.CommandType.Text;
-            command.CommandText = "Insert Into tbuser(dusername, dpassword, dfullname, dNIK) Values('"+Username+"', '"+Password+"', '"+nama+"', '"+NIK+"')";
+            // MySqlCommand command = connection.CreateCommand();
+            // command.CommandType = System.Data.CommandType.Text;
+            // command.CommandText = "Insert Into tbuser(dusername, dpassword, dfullname, dNIK) Values('"+Username+"', '"+Password+"', '"+nama+"', '"+NIK+"')";
+            
 
             Console.WriteLine("Masukkan Nama Lengkap: ");
             nama = Console.ReadLine();
@@ -39,7 +40,13 @@ namespace WifiProfiderApk{
             Username = Console.ReadLine();
             Console.WriteLine("Set Password Anda = ");
             Password = Console.ReadLine();
-            Console.WriteLine("Akun dengan username {0} dan password {1} telah berhasil di tambahkan", Username, Password);
+
+            MySqlCommand cmd = new MySqlCommand("Insert Into tbuser(dusername, dpassword, dfullname, dNIK) Values('"+Username+"', '"+Password+"', '"+nama+"', '"+NIK+"')");
+            int index = cmd.ExecuteNonQuery();
+            if(index > 0)
+            {
+                Console.WriteLine("Akun dengan username {0} dan password {1} telah berhasil di tambahkan", Username, Password);
+            }            
         }
         public void WifiRegister()
         {
