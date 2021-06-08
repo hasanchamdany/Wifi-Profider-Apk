@@ -1,24 +1,21 @@
 ﻿using System;
 using MySql.Data.MySqlClient;
 
-namespace WifiProfiderApk{
+namespace Wifi_Profider_Apk{
     public class Program{
 
         public string Username;
         public string Password;
         
-        static string connectionString = "server=localhost; port=3306; uid=hasan;" +
-                                        "pwd=hasan; database=mywifi_database; charset=utf8; sslmode=none;";
-        
-        static MySqlConnection connection = new MySqlConnection(connectionString);
         static void Main(string[] args){
+            connection data = new connection();
 
             Console.WriteLine("Connecting to MySql DB");
 
-            using(connection)
+            using(data.connect)
             {
                 try{
-                    connection.Open();
+                    data.connect.Open();
                     
                     Console.WriteLine("---Selamat Datang di Wifi-Profider Apk---");
                     Console.WriteLine("Apakah Anda memiliki Akun ? (yes/no)");
@@ -45,7 +42,7 @@ namespace WifiProfiderApk{
                         Console.WriteLine("Error, Tidak ada Inputan Selain yes/no");
                     }
 
-                    connection.Close();
+                    data.connect.Close();
                 }catch(MySql.Data.MySqlClient.MySqlException ex){
                     System.Console.WriteLine("Error: " + ex.Message.ToString());
                 }

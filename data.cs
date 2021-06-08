@@ -1,5 +1,5 @@
 using System;
-namespace WifiProfiderApk
+namespace Wifi_Profider_Apk
 {
     interface Data
     {
